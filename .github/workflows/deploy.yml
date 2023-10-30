@@ -11,7 +11,7 @@ jobs:
     env:
       MONGODB_USERNAME: engrsshz
       MONGODB_PASSWORD: EJoBpIdoTRY6xHGF
-      MONGODB_CLUSTER_ADDRESS: cluster0.p76hinz.mongodb.net/
+      MONGODB_CLUSTER_ADDRESS: cluster0.p76hinz.mongodb.net
       PORT: 3000
     environment: testing
     runs-on: ubuntu-latest
