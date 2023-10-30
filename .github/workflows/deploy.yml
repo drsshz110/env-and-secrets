@@ -9,10 +9,10 @@ env:
 jobs:
   test:
     env:
-      MONGODB_USERNAME: engrsshz
-      MONGODB_PASSWORD: EJoBpIdoTRY6xHGF
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       MONGODB_CLUSTER_ADDRESS: cluster0.p76hinz.mongodb.net
-      PORT: 3000
+      PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
     steps:
